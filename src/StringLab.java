@@ -10,13 +10,13 @@ public class StringLab {
 		wheresWaldo("Striped Waldo!");
 		wheresWaldo("Now is Waldo here?");
 		
-		
 		firstThingsFirst("cat", "dog");
 		firstThingsFirst("tree", "pine");
 		firstThingsFirst("Zebra", "Apple");
 
 		reverse("happy");
 		reverse("Does this work too?");
+
 		System.out.println(reverseReturnVersion("happy"));
 		System.out.println(reverseReturnVersion("Does this work too?"));
 
@@ -57,7 +57,6 @@ public class StringLab {
 			System.out.println(a + " " + b);
 	}
 
-
 	public static void reverse(String s) {
 		String answer = new StringBuffer(s).reverse().toString();
 		System.out.println(answer);
@@ -82,7 +81,6 @@ public class StringLab {
 
 	}
 	
-
 	public static void afterMath(String phrase) {
 		
 		if (phrase.contains("math")) {
@@ -91,7 +89,6 @@ public class StringLab {
 			System.out.println("dud");
 		}
 	}
-
 
 	public static void letterize(String word) {
 		for (char answer : word.toCharArray()) {
