@@ -9,6 +9,7 @@ public class StringLab {
 		
 		wheresWaldo("Striped Waldo!");
 		wheresWaldo("Now is Waldo here?");
+		wheresWaldo("Where is Waldo now?");
 		
 		firstThingsFirst("cat", "dog");
 		firstThingsFirst("tree", "pine");
@@ -46,7 +47,8 @@ public class StringLab {
 		return wordFinal;
 	}
 	public static void wheresWaldo(String phrase) {
-		System.out.println(phrase.indexOf("W"));
+		int answer = phrase.indexOf("Waldo");
+		System.out.println(answer);
 
 	}
 
