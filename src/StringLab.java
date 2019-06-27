@@ -3,6 +3,8 @@ public class StringLab {
 	public static void main(String[] args) {
 		capitalize("blaZes");
 		capitalize("What else Can I SAY???");
+
+		System.out.println(capitalizeReturnVersion("blaZes"));
 		
 		wheresWaldo("Striped Waldo!");
 		wheresWaldo("Now is Waldo here?");
@@ -13,6 +15,7 @@ public class StringLab {
 		firstThingsFirst("Zebra", "Apple");
 
 		reverse("happy");
+		System.out.println(reverseReturnVersion("happy"));
 
 		soLong("bean", "pea");
 		soLong("information", "tea");
@@ -33,6 +36,12 @@ public class StringLab {
 		System.out.println(firstLetter + restOfWord); 
 	}
 	
+	public static String capitalizeReturnVersion(String word) {
+		String firstLetter = word.substring(0, 1).toUpperCase();
+		String restOfWord = word.substring(1).toLowerCase();
+		String wordFinal = firstLetter + restOfWord;
+		return wordFinal;
+	}
 	public static void wheresWaldo(String phrase) {
 		System.out.println(phrase.indexOf("W"));
 
@@ -45,9 +54,16 @@ public class StringLab {
 			System.out.println(a + " " + b);
 	}
 
+
 	public static void reverse(String s) {
 		String answer = new StringBuffer(s).reverse().toString();
 		System.out.println(answer);
+
+	}
+
+	public static String reverseReturnVersion(String s) {
+		String answer = new StringBuffer(s).reverse().toString();
+		return answer;
 
 	}
 
