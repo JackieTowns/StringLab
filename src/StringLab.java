@@ -45,8 +45,6 @@ public class StringLab {
 			System.out.println(a + " " + b);
 	}
 
-
-
 	public static void reverse(String s) {
 		String answer = new StringBuffer(s).reverse().toString();
 		System.out.println(answer);
@@ -54,9 +52,6 @@ public class StringLab {
 	}
 
 	public static void soLong(String a, String b) {
-
-		// System.out.println(a.length());
-		// System.out.println(b.length());
 		
 		if (a.length() > b.length()) {
 			System.out.println(a);
@@ -79,29 +74,14 @@ public class StringLab {
 	}
 
 
-
 	public static void letterize(String word) {
 		for (char answer : word.toCharArray()) {
 			  System.out.println(answer);
 			 } 
-
 	}
-		
-	}
+}
 		
 
 
-	/*
- * 
- * afterMath(String phrase) - takes a phrase. If the phrase contains the word
- * math, it prints the rest of the phrase starting with math. If not, it prints
- * “dud”. E.g. for “She aced the mathematics test!”, it prints “mathematics
- * test!”; for “My floor mat is so keen!”, it prints “dud”.
- * 
- * 
- * 
- * 
- * 
- */
 
 
