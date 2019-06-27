@@ -5,6 +5,7 @@ public class StringLab {
 		capitalize("What else Can I SAY???");
 
 		System.out.println(capitalizeReturnVersion("blaZes"));
+		System.out.println(capitalizeReturnVersion("What else Can I SAY???"));
 		
 		wheresWaldo("Striped Waldo!");
 		wheresWaldo("Now is Waldo here?");
@@ -15,7 +16,9 @@ public class StringLab {
 		firstThingsFirst("Zebra", "Apple");
 
 		reverse("happy");
+		reverse("Does this work too?");
 		System.out.println(reverseReturnVersion("happy"));
+		System.out.println(reverseReturnVersion("Does this work too?"));
 
 		soLong("bean", "pea");
 		soLong("information", "tea");
